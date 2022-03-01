@@ -14,7 +14,7 @@ except ImportError:
                    Extension('data_simulators', ['src/cddm_data_simulation.cpp'], language="c++")
     ]
 
-import numpy as np
+#import numpy as np
 
 setup(
     name='HDDM',
